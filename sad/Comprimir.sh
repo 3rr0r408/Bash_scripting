@@ -11,6 +11,10 @@ read veces
 
 sleep .5
 
+#variables de comparacion
+n=$(( $veces - 1 ))
+a=$archivo
+
 while true
 do
         echo "Comprobando ficheros"
@@ -35,5 +39,14 @@ do
                 archivo=$archivo$zip
                 ((i++))
         done
+        #Elimina todos los archivos menos el primero (original) y el ultimo (Resultado)
+        i=1
+        while [ $i -le $n ]
+        do
+                rm -rf $a$zip
+                a=$a$zip
+                ((i++))
+        done
         break
+
 done
