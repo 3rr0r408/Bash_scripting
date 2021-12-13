@@ -5,4 +5,4 @@ Nombre y descripcion:
 
   - Buscar_divisores: Este programa te solicitara 1 parametro de entrada que debe ser de tipo INT, cuando lo introduzcas te devolvera todos los divisores de ese numero.
 
-  - Comprimir.sh: Durante su ejecucion solicitara 2 parametros, la primera un archivo y la segunda un numero, esta herramienta comprimira el archivo la cantidad de veces indicada
+  - Comprimir: Durante su ejecucion solicitara 2 parametros, la primera un archivo y la segunda un numero, esta herramienta comprimira el archivo la cantidad de veces indicada
