@@ -6,3 +6,5 @@ Nombre y descripcion:
   - Buscar_divisores: Este programa te solicitara 1 parametro de entrada que debe ser de tipo INT, cuando lo introduzcas te devolvera todos los divisores de ese numero.
 
   - Comprimir: Durante su ejecucion solicitara 2 parametros, la primera un archivo y la segunda un numero, esta herramienta comprimira el archivo la cantidad de veces indicada
+
+  - Multiplicar: Debe ser ejecutada con el parametro -f, luego solicitara un numero y generara la tabla de myltiplicar sobre ese numero
